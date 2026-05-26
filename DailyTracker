@@ -9,3 +9,15 @@ Configured CORS for frontend-backend communication.
 Successfully connected frontend (localhost:3000) with backend (localhost:8080).
 Implemented frontend API call using fetch() to verify backend status.
 Established complete local development environment for future AI interview features.
+
+Day 2 Summary
+Implemented resume upload feature using multipart file upload.
+Added Apache PDFBox dependency for PDF text extraction.
+Created backend API: POST /resume/upload.
+Configured backend to receive PDF files using MultipartFile.
+Extracted resume text from uploaded PDFs using PDFTextStripper.
+Built frontend resume upload UI using Next.js.
+Implemented file selection and upload using FormData and fetch().
+Successfully connected frontend upload flow with backend processing.
+Displayed extracted resume content dynamically on frontend UI.
+Completed first end-to-end full-stack business feature for the AI Interview Agent.
